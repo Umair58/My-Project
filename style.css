@@ -1,0 +1,540 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+@font-face {
+    font-family: 'La Luxes Script';
+    src: url(LaLuxes/LaLuxesScript.woff);
+    font-weight: 400;
+}
+
+
+
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.container{
+    max-width: 1720px !important;
+    padding: 0px; 
+    margin: 0px;
+}
+.mobile-nav-bar{
+    display: none !important;
+}
+.top-sec{
+    background-color: #000;
+}
+.top-sec-text{
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding-top: 13px;
+    line-height: 10px;
+}
+.nav-bar-row{
+    padding: 10px 0px 10px 0px;
+}
+.nav-lists li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #000;
+    display: flex;
+}
+.nav-lists li {
+    list-style: none;
+    margin: auto;
+}
+.nav-lists ul{
+    display: flex;
+    padding-left: 0;
+    justify-content: space-around;
+}
+.nav-bar-content{
+    display: flex;
+}
+.nav-imgs {
+    display: flex;
+    justify-content: end;
+    padding-top: 30px;
+}
+.nav-imgs img{
+    width: 30px;
+    margin-right: 30px;
+}
+.carousel-control-next, .carousel-control-prev {
+    position: absolute;
+    top: 50% !important;
+}
+.carousel-caption {
+    position: absolute;  
+    text-align: left;
+    left: 15%;
+    bottom: 30% !important;
+    text-align: left !important;
+}
+.carousel-indicators {
+    display: none !important;
+}
+.carousel-item h1{
+    font-family: 'La Luxes Script';
+font-size: 48px;
+}
+.carousel-item h2{
+    font-family: "Tenor Sans", sans-serif; 
+    font-size: 60px;
+}
+.carousel-item p{
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
+ .text-sec h1{
+    font-size: 50px;
+    padding: 30px 0px;
+    color: #E0E0E0;
+    text-align: center;
+ }
+ .catalog-sec p{
+    font-family: 'La Luxes Script';
+    font-size: 48px;
+    text-align: center;
+ }
+ .catalog-sec h1{
+    font-size: 60px;
+    text-align: center;
+font-family: "Tenor Sans", sans-serif;  
+ }
+ .collection-sec {
+    background-image: url('IMG.png');
+    background-repeat: no-repeat;
+    height: 500px;
+ }
+ .collection-sec-text p{
+    text-align: center;
+    color: white;
+ }
+ .collection-sec-text h3{
+    color: white;
+    text-align: center;
+    padding-top: 180px;
+    font-family: 'La Luxes Script';
+    font-size: 72px;
+ }
+ .collection-sec-one{
+    background-image: url('IMG1.png');
+    background-repeat: no-repeat;
+    height: 500px;
+ }
+ .collection-sec-two{
+    background-image: url('IMG2.png');
+    background-repeat: no-repeat;
+    height: 500px;
+ }
+ .collection-sec-row{
+    display: flex;
+    justify-content: space-around;
+ }
+ .about-sec-content h1{
+    font-size: 60px;
+    font-family: 'La Luxes Script';
+    padding-top: 20px;
+ }
+ .about-sec-content h2{
+    font-size: 60px;
+    font-family: "Tenor Sans", sans-serif;
+ }
+ .about-sec-content p{
+    font-size: 16px;
+    text-align: justify;
+ }
+ .about-btn a, .imgs-btn a, .fashion-sec-btn a, .carousel-btn a {
+    padding: 23px 44px !important;
+    color: white;
+    background-color: black;
+    text-decoration: none;
+    border-radius: 4px;
+ }
+ .about-btn, .imgs-btn , .fashion-sec-btn , .carousel-btn{
+    padding-top: 40px;
+ }
+ .about-btn a:hover, .imgs-btn a:hover, .fashion-sec-btn a:hover{
+    background-color: lightblue;
+    color: black !important;
+ }
+ .about-sec-img img{
+    width: 100%;
+    height: 100%;
+ }
+ .col-lg-6.about-sec-img {
+    padding-left: 0px;
+}
+ .col-lg-6.about-sec-content {
+    padding-top: 20px;
+}
+.about-sec{
+    box-shadow: 5px 5px 5px 5px #E6E6E6;
+    background-color: #E0E0E0;
+    margin-top: 50px;
+}
+.latest-trend-content h1, .fashion-sec-content h1{
+    font-size: 60px !important;
+    font-family: 'La Luxes Script';
+}
+.latest-trend-content h2{
+font-size: 60px;
+text-align: center;
+font-family: "Tenor Sans", sans-serif;
+}
+.latest-trend-content h1{
+  text-align: center;
+  padding-top: 50px;
+}
+.latest-trend-content p{
+    text-align: center;
+    font-size: 16px;
+padding-bottom: 10px;
+}
+.latest-trend-imgs img{
+    width: 100%;
+}
+.latest-trend-imgs h5{
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Tenor Sans", sans-serif;
+}
+.latest-trend-imgs p{
+    font-size: 16px;
+    text-align: center;
+}
+.imgs-btn, .fashion-sec-btn{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.fashion-sec{
+    background-image: url('BG1.png');
+}
+.fashion-sec-content h1{
+    text-align: center;
+    color: white;
+    padding-top: 68px;
+}
+.fashion-sec-content h2{
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+.fashion-sec-content p{
+    font-size: 16px;
+    text-align: center;
+    color: white;
+}
+.fashion-sec-btn a{
+    color: #000;
+    background-color: #DCDCDC;
+}
+.icon-box-content{
+    text-align: center;
+}
+.icon-box-content img{
+margin-bottom: 20px;
+}
+.icon-box-content h4{
+font-size: 24px;
+font-family: "Tenor Sans", sans-serif;
+}
+.icon-box-content p{
+    font-size: 16px;
+}
+.icon-box{
+    background-color: #E0E0E0;
+}
+.icon-box-row{
+    padding: 45px 0px 45px 0px;
+}
+.footer-sec{
+    background-color: #000;
+}
+.footer-sec-content p{
+color: white;
+font-size: 16px;
+}
+.footer-sec-content h4{
+    font-size: 24px;
+    font-family: "Tenor Sans", sans-serif;
+    color: white;
+}
+.footer-row{
+    padding-top: 100px;
+    padding-bottom: 73px;
+}
+.text{
+    padding: 10px 0px;
+}
+.line-content hr{
+color: white;
+}
+.line-content p{
+    color: white;
+    font-size: 12px;
+}
+.text-box {
+    display: flex;
+    justify-content: space-between;
+}
+.social-imgs img{
+    width: 20px;
+    margin-right: 10px;
+}
+
+@media screen and (max-width: 1366px) {
+    .text-sec h1 , .catalog-sec h1 {
+        font-size: 33px;
+        text-align: center;
+    }
+    .carousel-caption{
+        bottom: 10% !important;
+    }
+    .carousel-item h2 {
+        font-size: 45px;
+    }
+    .carousel-item p {
+        font-size: 11px;
+    }
+    .collection-sec ,.collection-sec-one, .collection-sec-two{
+        height: 350px;
+    }
+    .collection-sec-text h3{
+        padding-top: 110px !important;
+    }
+    .about-sec-content h2 {
+        font-size: 35px;
+    }
+    .about-sec-content p , .latest-trend-content p, .fashion-sec-content p ,.icon-box-content p , .latest-trend-imgs p, .footer-sec-content p{
+        font-size: 14px;
+    }
+    .about-sec-content{
+        padding: 30px !important;
+    }
+   
+    .about-btn  a, .imgs-btn a{        
+        padding: 13px 44px !important;
+        font-size: 12px;
+    }
+    .about-sec-content h1{
+        padding-top: 0;
+    }
+    .latest-trend-content h2 , .fashion-sec-content h2 {
+        font-size: 40px;
+    }
+    .latest-trend-imgs h5 , .icon-box-content h4 , .footer-sec-content h4{
+        font-size: 21px;
+    }
+    .icon-box-content h4 {
+        font-size: 20px;
+    }
+    .text {
+        margin-bottom: 0;
+    }
+}
+@media screen and (max-width: 991px) {
+    .main-nav-bar{
+        display: none;
+    }
+    .top-sec{
+        display: none;
+    }
+    .carousel-control-next, .carousel-control-prev {
+        display: none !important;
+    }
+    .mobile-nav-bar{
+        display: block !important;
+    }
+    .navbar-dark .navbar-nav .nav-link {
+        color: black;
+    }
+    .text-sec h1, .catalog-sec h1 {
+        font-size: 25px;
+    }
+    .collection-sec, .collection-sec-one, .collection-sec-two {
+        height: 300px;
+    }
+    .collection-sec-text h3 {
+        padding-top: 90px !important;
+        font-size: 50px;
+    }
+    .about-sec-content h2 {
+        font-size: 28px;
+    }
+    .about-sec-content p, .latest-trend-content p, .fashion-sec-content p, .icon-box-content p, .footer-sec-content p , .latest-trend-imgs p, .line-content p {
+        font-size: 11px;
+    }
+    .about-btn  a, .imgs-btn a {
+        padding: 14px 44px !important;
+        font-size: 12px;
+    }
+    .about-btn{
+        padding-top: 5px;
+    }
+    .latest-trend-content h1, .fashion-sec-content h1 {
+        font-size: 40px !important; 
+    }
+    .latest-trend-content h2, .fashion-sec-content h2, .about-sec-content h2 {
+        font-size: 35px;
+    }
+    .latest-trend-imgs h5, .footer-sec-content h4 {
+        font-size: 18px;
+    }
+    .icon-box-content h4{
+        font-size: 15px;
+    }
+    .footer-sec-content a img {
+        width: 60%;
+    }
+    .social-imgs img {
+        margin-right: 10px !important;
+    }
+    .nav-link a{
+        text-transform: uppercase;
+        /* color: black; */
+    }
+    .navbar-dark .navbar-toggler-icon {
+        background-image: url('menu\ \(1\).png') !important;
+    }
+    a.nav-link {
+        color: black !important;
+    }
+    .carousel-btn {
+        padding-top: 10px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .carousel-caption{
+        bottom: 10% !important;
+    }
+    .carousel-item h1 {
+        font-size: 40px;
+    }
+    .carousel-item h2 {
+        font-size: 32px;
+    }
+    .carousel-item p {
+        font-size: 12px;
+    }
+    .carousel-btn{
+        padding-top: 20px;
+    }
+    .carousel-btn a{
+        padding: 23px 44px !important;
+    }
+    .text-sec h1, .catalog-sec h1 {
+        font-size: 20px;
+    }
+    .catalog-sec p{
+        font-size: 35px;
+    }
+    .row.collection-sec-row {
+        padding: 50px;
+    }
+   .collection-sec , .collection-sec-one , .collection-sec-two {
+        margin-bottom: 20px;
+    }.collection-sec-text h3 {
+        padding-top: 100px !important;
+    }
+    .latest-trend-content h1, .fashion-sec-content h1, .about-sec-content h1 {
+        font-size: 37px !important;
+    }
+    .latest-trend-content h2, .about-sec-content h2 {
+        font-size: 30px;
+    }
+    .about-sec-content p, .latest-trend-content p, .fashion-sec-content p, .icon-box-content p, .footer-sec-content p, .latest-trend-imgs p, .line-content p {
+        font-size: 10px;
+    }
+    .latest-trend-imgs h5 {
+        font-size: 15px;
+    }
+    .fashion-sec-content h2{
+        font-size: 20px;
+    }
+    .col-lg-3.col-6.col-md-3.footer-sec-content {
+        padding: 20px;
+    }
+    .line-content p {
+        font-size: 7px;
+    }
+    .about-btn a, .imgs-btn a, .fashion-sec-btn a {
+        padding: 18px 35px !important;
+    }
+    .social-imgs img {
+        margin-right: 8px !important;
+    }
+    .footer-sec-content h4 {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:414px) {
+    .text-sec h1, .catalog-sec h1 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    .latest-trend-content h2, .about-sec-content h2 {
+        font-size: 24px;
+    }
+    .social-imgs img {
+        margin-right: 5px !important;
+        width: 15px;
+    }
+}
+@media screen and (max-width:660px) {
+    .carousel-item h2 {
+        font-size: 24px;
+    }
+    .carousel-item h1 {
+        font-size: 32px;
+    }
+    .carousel-caption {
+        position: absolute;
+        right: 0% !important;
+        bottom: 2% !important;
+    }
+    .carousel-item p {
+        font-size: 7px;
+    }
+    .carousel-btn a {
+        padding: 15px 44px !important;
+    }
+}
+@media screen and (max-width:475px) {
+    .carousel-item h2 {
+        font-size: 17px !important;
+    }
+    .carousel-item h1 {
+        font-size: 22px !important;
+    }
+    .carousel-caption {
+        position: absolute;
+        right: 0% !important;
+        bottom: 0% !important;
+    }
+    .carousel-item p {
+        font-size: 5px !important;
+        margin-bottom: -5px;
+    }
+    .carousel-btn a {
+        padding: 10px 35px !important;
+    }
+}
+@media screen and (max-width:360px) {
+    .carousel-caption {
+        padding-bottom: 0px !important;
+    }
+    .carousel-item h2 {
+        font-size: 14px !important;
+    }
+    .carousel-btn a {
+        padding: 7px 29px !important;
+    }
+    .carousel-btn {
+        padding-top: 15px !important;
+        padding-bottom: 10px !important;
+    }
+}
